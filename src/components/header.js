@@ -1,4 +1,4 @@
-function Header() {
+function Header(props) {
 
 
   return (
@@ -8,8 +8,8 @@ function Header() {
         <p>Some instructions on how to play. Just click around!</p>
       </div>
       <div>
-        <p>This will be the current score</p>
-        <p>This will be the highscore</p>
+        <p>Score: {props.score}</p>
+        <p>Highscore: {props.highscore}</p>
       </div>
     </div>
   )
