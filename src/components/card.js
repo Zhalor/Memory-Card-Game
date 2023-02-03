@@ -1,10 +1,13 @@
+
+
 function Card(props) {
-
-
   return (
-    <div className="card" onClick={() => props.callback(props.score + 1)}>
-      <p>{props.letterObj.letter}</p>
-      <p>{props.letterObj.desc}</p>
+    <div className="card" onClick={() => {
+        props.setScore(props.score + 1);
+        props.checkDuplicate(props.cardObj.desc);
+        }}>
+      <p>{props.cardObj.desc}</p>
+      <img src={props.cardObj.src} alt="" />
     </div>
   );
 }

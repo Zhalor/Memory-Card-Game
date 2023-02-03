@@ -5,7 +5,7 @@ function Header(props) {
     <div className="header">
       <div>
         <h1>Title of the Game</h1>
-        <p>Some instructions on how to play. Just click around!</p>
+        <p>Get points by clicking the images below, without clicking the same image twice!</p>
       </div>
       <div>
         <p>Score: {props.score}</p>
