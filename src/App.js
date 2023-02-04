@@ -10,16 +10,16 @@ function App() {
   const [selectedCards, setSelectedCards] = useState([]);
 
   const [cardDisplays, setCardDisplays] = 
-  useState([{desc: "Super Saiyan Goku", src: "./images/gokuSSJ.jpg"},
-  {desc: "Super Saiyan Blue Goku", src: "./images/gokuSSJBlue.jpg"},
-  {desc: "Ultra Instinct Goku", src: "./images/gokuUltraInstinct.jpg"}, 
-  {desc: "D", src: "the desc D"},
-  {desc: "E", src: "the desc E"},
-  {desc: "F", src: "the desc F"},
-  {desc: "G", src: "the desc G"},
-  {desc: "H", src: "the desc H"},
-  {desc: "I", src: "the desc I"},
-  {desc: "J", src: "the desc J"}]);
+  useState([{desc: "Goku", src: "./images/goku.png"},
+  {desc: "Vegeta", src: "./images/vegeta.png"},
+  {desc: "Krillin", src: "./images/krillin.png"}, 
+  {desc: "Gohan", src: "./images/gohan.png"},
+  {desc: "Trunks", src: "./images/trunks.png"},
+  {desc: "Buu", src: "./images/buu.png"},
+  {desc: "Tien", src: "./images/tien.png"},
+  {desc: "Yamcha", src: "./images/yamcha.png"},
+  {desc: "Frieza", src: "./images/frieza.png"},
+  {desc: "Piccolo", src: "./images/piccolo.png"}]);
     
   useEffect(() => {
     shuffleCards();
