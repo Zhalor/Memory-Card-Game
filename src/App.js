@@ -9,37 +9,29 @@ function App() {
   const [score, setScore] = useState(0);
   const [selectedCards, setSelectedCards] = useState([]);
 
-  const [cardDisplays, setCardDisplays] = 
-  useState([{desc: "Goku", src: "./images/goku.png"},
-  {desc: "Vegeta", src: "./images/vegeta.png"},
-  {desc: "Krillin", src: "./images/krillin.png"}, 
-  {desc: "Gohan", src: "./images/gohan.png"},
-  {desc: "Trunks", src: "./images/trunks.png"},
-  {desc: "Buu", src: "./images/buu.png"},
-  {desc: "Tien", src: "./images/tien.png"},
-  {desc: "Yamcha", src: "./images/yamcha.png"},
-  {desc: "Frieza", src: "./images/frieza.png"},
-  {desc: "Piccolo", src: "./images/piccolo.png"}]);
+  const [characters, setCharacters] = 
+  useState(['Goku', 'Vegeta', 'Gohan', 'Trunks', 'Frieza',
+            'Krillin', 'Buu', 'Tien', 'Yamcha', 'Piccolo']);
     
   useEffect(() => {
     shuffleCards();
   });
   
   function shuffleCards() {
-    setCardDisplays(cardDisplays.sort(() => {
+    setCharacters(characters.sort(() => {
       return 0.5 - Math.random();
     }));
   }
 
-  function checkDuplicate(desc) {
-    if(selectedCards.includes(desc)) {
+  function checkDuplicate(name) {
+    if(selectedCards.includes(name)) {
       if(score > highScore) {
         setHighScore(score);
       }
       setScore(0);
       setSelectedCards(selectedCards => []);
     } else {
-      setSelectedCards(selectedCards.concat(desc));
+      setSelectedCards(selectedCards.concat(name));
     }
   }
 
@@ -47,16 +39,16 @@ function App() {
     <div className="container">
       <Header score={score} highscore ={highScore}/>
       <div className="card-container">
-        <Card cardObj={cardDisplays[0]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
-        <Card cardObj={cardDisplays[1]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
-        <Card cardObj={cardDisplays[2]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
-        <Card cardObj={cardDisplays[3]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
-        <Card cardObj={cardDisplays[4]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
-        <Card cardObj={cardDisplays[5]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
-        <Card cardObj={cardDisplays[6]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
-        <Card cardObj={cardDisplays[7]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
-        <Card cardObj={cardDisplays[8]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
-        <Card cardObj={cardDisplays[9]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
+        <Card character={characters[0]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
+        <Card character={characters[1]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
+        <Card character={characters[2]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
+        <Card character={characters[3]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
+        <Card character={characters[4]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
+        <Card character={characters[5]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
+        <Card character={characters[6]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
+        <Card character={characters[7]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
+        <Card character={characters[8]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
+        <Card character={characters[9]} score={score} setScore={setScore} checkDuplicate={checkDuplicate}/>
 
       </div>
     </div>
