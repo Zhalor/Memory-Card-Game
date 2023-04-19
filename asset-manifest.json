@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Zhalor/Memory-Card-Game/static/css/main.af6c8454.css",
-    "main.js": "/Zhalor/Memory-Card-Game/static/js/main.6f57b4b1.js",
-    "static/media/piccolo.png": "/Zhalor/Memory-Card-Game/static/media/piccolo.743c0f97827a5a40a127.png",
-    "static/media/tien.png": "/Zhalor/Memory-Card-Game/static/media/tien.ddb503b4b19ced86282c.png",
-    "static/media/goku.png": "/Zhalor/Memory-Card-Game/static/media/goku.74af449bcc256a51455a.png",
-    "static/media/gohan.png": "/Zhalor/Memory-Card-Game/static/media/gohan.31cba2a99c7c837e3b47.png",
-    "static/media/vegeta.png": "/Zhalor/Memory-Card-Game/static/media/vegeta.71998940834a3c2a4042.png",
-    "static/media/frieza.png": "/Zhalor/Memory-Card-Game/static/media/frieza.d5d5c17f60e80a458673.png",
-    "static/media/trunks.png": "/Zhalor/Memory-Card-Game/static/media/trunks.c942bbe08f80b822f486.png",
-    "static/media/krillin.png": "/Zhalor/Memory-Card-Game/static/media/krillin.2ff9bf35347a814496d8.png",
-    "static/media/buu.png": "/Zhalor/Memory-Card-Game/static/media/buu.5abbe14e726d3f688875.png",
-    "static/media/yamcha.png": "/Zhalor/Memory-Card-Game/static/media/yamcha.29f3873b1292832a6da7.png",
-    "index.html": "/Zhalor/Memory-Card-Game/index.html",
-    "main.af6c8454.css.map": "/Zhalor/Memory-Card-Game/static/css/main.af6c8454.css.map",
-    "main.6f57b4b1.js.map": "/Zhalor/Memory-Card-Game/static/js/main.6f57b4b1.js.map"
+    "main.css": "/Memory-Card-Game/static/css/main.91d158d9.css",
+    "main.js": "/Memory-Card-Game/static/js/main.6f57b4b1.js",
+    "static/media/piccolo.png": "/Memory-Card-Game/static/media/piccolo.743c0f97827a5a40a127.png",
+    "static/media/tien.png": "/Memory-Card-Game/static/media/tien.ddb503b4b19ced86282c.png",
+    "static/media/goku.png": "/Memory-Card-Game/static/media/goku.74af449bcc256a51455a.png",
+    "static/media/gohan.png": "/Memory-Card-Game/static/media/gohan.31cba2a99c7c837e3b47.png",
+    "static/media/vegeta.png": "/Memory-Card-Game/static/media/vegeta.71998940834a3c2a4042.png",
+    "static/media/frieza.png": "/Memory-Card-Game/static/media/frieza.d5d5c17f60e80a458673.png",
+    "static/media/trunks.png": "/Memory-Card-Game/static/media/trunks.c942bbe08f80b822f486.png",
+    "static/media/krillin.png": "/Memory-Card-Game/static/media/krillin.2ff9bf35347a814496d8.png",
+    "static/media/buu.png": "/Memory-Card-Game/static/media/buu.5abbe14e726d3f688875.png",
+    "static/media/yamcha.png": "/Memory-Card-Game/static/media/yamcha.29f3873b1292832a6da7.png",
+    "index.html": "/Memory-Card-Game/index.html",
+    "main.91d158d9.css.map": "/Memory-Card-Game/static/css/main.91d158d9.css.map",
+    "main.6f57b4b1.js.map": "/Memory-Card-Game/static/js/main.6f57b4b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.af6c8454.css",
+    "static/css/main.91d158d9.css",
     "static/js/main.6f57b4b1.js"
   ]
 }
